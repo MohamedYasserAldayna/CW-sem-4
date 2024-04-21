@@ -110,31 +110,6 @@ if m > n-2:
 if m <= e:
     print("The m shouldn't be less than e ")
     raise ValueError(f"{m} is greater than {e}")
-# eul = (p-1)*(q-1)
-
-# def gcd_normal(a,b):
-
-#      while b != 0:
-
-#         a, b = b, a % b
-
-#      return a
-    
-# def get_e (eul):
-
-#     e = 7
-
-#     while True:
-
-#         if gcd_normal(e,eul)==1:
-
-#             return e
-        
-#         else:
-
-#             e += 1
-
-# e = get_e(eul)
 
 def extended_gcd(a,b):
 
